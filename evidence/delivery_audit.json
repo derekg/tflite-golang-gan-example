@@ -1,0 +1,34 @@
+{
+  "comparison_inputs_and_actual_export": [
+    {
+      "distribution": "gaussian",
+      "seed": 88920,
+      "count": 8,
+      "export_vs_figure_source_max_error": 5.662441253662109e-07
+    },
+    {
+      "distribution": "uniform",
+      "seed": 88921,
+      "count": 8,
+      "export_vs_figure_source_max_error": 1.7881393432617188e-07
+    }
+  ],
+  "protected_files_unchanged": true,
+  "model_hashes_verified": true,
+  "native": {
+    "status": "NOT RUN",
+    "exit_code": 2,
+    "reason": "No native LiteRT/TensorFlow interpreter installed."
+  },
+  "sample_cli": {
+    "status": "PASS",
+    "seed": 89220,
+    "count": 2,
+    "shape": [
+      2,
+      256,
+      256,
+      3
+    ]
+  }
+}

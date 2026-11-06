@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Saved mode makes no model requests",
+    "Gallery wraps backward",
+    "Gallery wraps forward",
+    "One message contains the shared noise vector",
+    "Walk advances",
+    "Pause stops requests",
+    "Resume preserves progress",
+    "Changing duration preserves progress",
+    "Stale frame is discarded",
+    "New destination starts from last displayed noise",
+    "Legacy endpoints stay within zero to one",
+    "Hidden tab stops requests",
+    "Visibility resume preserves progress",
+    "Endpoint is rendered exactly",
+    "Endpoint hold avoids extra inference",
+    "Next journey starts automatically",
+    "Saved mode suspends live inference",
+    "Saving creates a paired image",
+    "Error exposes retry and preserves gallery"
+  ],
+  "simulated_dom": true,
+  "browser_rendering_tested": false,
+  "webgl_tested": false
+}

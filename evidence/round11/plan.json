@@ -1,0 +1,166 @@
+{
+  "parent": "round9/candidates/model_spatial_experimental.tflite",
+  "protected": {
+    "round9/candidates/model_spatial_experimental.tflite": "4008ef0fd929fc45b6f49a6ecdf596fc39a9620754296132bea25e80a583c3c3",
+    "round9/candidates/model_spatial_experimental.pt": "b34c4888df77575e688291c9bb5d8cb1351f1d28d6d14b9454f1214bc5780ce4",
+    "model.tflite": "0074d74ac51f7a67361c2f881faeeebb591f7297c3878f972538b4c1cb95e79b",
+    "round8/candidates/model_selective_experimental.tflite": "5f899d68b63bf194197eb0d1dcf1e98f7002d6f0b8340f816e2f20b1132e0539",
+    "round10/candidates/model_overlap_experimental.tflite": "5ff90487db3adb09c00a7db3fe2d4ae4fcb9bb8ed6c0bb2a94e485a3c5173245",
+    "portrait-morph/dist/index.html": "0ddeae3b3931cb62b56d9757e9e38161974b4b25b756ad6e689cdc99cd0616fb"
+  },
+  "configs": [
+    {
+      "name": "overlap0.35_phase0",
+      "stages": [
+        4
+      ],
+      "a": 0.35,
+      "b": 0.0
+    },
+    {
+      "name": "overlap0.35_phase0.1",
+      "stages": [
+        4
+      ],
+      "a": 0.35,
+      "b": 0.1
+    },
+    {
+      "name": "overlap0.35_phase0.2",
+      "stages": [
+        4
+      ],
+      "a": 0.35,
+      "b": 0.2
+    },
+    {
+      "name": "overlap0.35_phase0.3",
+      "stages": [
+        4
+      ],
+      "a": 0.35,
+      "b": 0.3
+    },
+    {
+      "name": "overlap0.5_phase0",
+      "stages": [
+        4
+      ],
+      "a": 0.5,
+      "b": 0.0
+    },
+    {
+      "name": "overlap0.5_phase0.1",
+      "stages": [
+        4
+      ],
+      "a": 0.5,
+      "b": 0.1
+    },
+    {
+      "name": "overlap0.5_phase0.2",
+      "stages": [
+        4
+      ],
+      "a": 0.5,
+      "b": 0.2
+    },
+    {
+      "name": "overlap0.5_phase0.3",
+      "stages": [
+        4
+      ],
+      "a": 0.5,
+      "b": 0.3
+    },
+    {
+      "name": "overlap0.65_phase0",
+      "stages": [
+        4
+      ],
+      "a": 0.65,
+      "b": 0.0
+    },
+    {
+      "name": "overlap0.65_phase0.1",
+      "stages": [
+        4
+      ],
+      "a": 0.65,
+      "b": 0.1
+    },
+    {
+      "name": "overlap0.65_phase0.2",
+      "stages": [
+        4
+      ],
+      "a": 0.65,
+      "b": 0.2
+    },
+    {
+      "name": "overlap0.65_phase0.3",
+      "stages": [
+        4
+      ],
+      "a": 0.65,
+      "b": 0.3
+    },
+    {
+      "name": "overlap0.8_phase0",
+      "stages": [
+        4
+      ],
+      "a": 0.8,
+      "b": 0.0
+    },
+    {
+      "name": "overlap0.8_phase0.1",
+      "stages": [
+        4
+      ],
+      "a": 0.8,
+      "b": 0.1
+    },
+    {
+      "name": "overlap0.8_phase0.2",
+      "stages": [
+        4
+      ],
+      "a": 0.8,
+      "b": 0.2
+    },
+    {
+      "name": "overlap0.8_phase0.3",
+      "stages": [
+        4
+      ],
+      "a": 0.8,
+      "b": 0.3
+    }
+  ],
+  "development": {
+    "gaussian_seed": 89200,
+    "uniform_seed": 89201,
+    "count_each": 64
+  },
+  "holdout": {
+    "gaussian_seed": 89202,
+    "uniform_seed": 89203,
+    "count_each": 256
+  },
+  "reason": "Round10 isolated the final upsampler; full phase averaging increased normalized edge periodicity. Tune shared-field overlap and phase residual separately.",
+  "criteria": {
+    "edge_grid_ratio_max": 0.85,
+    "per_image_phase4_ratio_max": 0.8,
+    "broad_edge_ratio_min": 0.95,
+    "nearest_shape_ratio_min": 0.97,
+    "coarse_rgb_rms_max": 0.02,
+    "rgb_rms_max": 0.035,
+    "color_shift_max": 0.008,
+    "clip_increase_max": 0.002
+  },
+  "selection": "Same frozen round10 guards on BOTH distributions; minimize worst edge-grid ratio among eligible candidates. If none, diagnostic structure-safe candidate only.",
+  "training": false,
+  "gradients": false,
+  "external_data": false
+}

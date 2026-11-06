@@ -1,0 +1,10 @@
+{
+  "count": 16,
+  "gaussian_seed": 88920,
+  "uniform_seed": 88921,
+  "first_n_each": 8,
+  "edge_exposure": 0.3182559311389923,
+  "edge_gamma": 0.65,
+  "screening": false,
+  "flipping": false
+}

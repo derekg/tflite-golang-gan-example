@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "case": 0,
+      "model": "original",
+      "max_error": 1.4901161193847656e-7,
+      "ms": 298.233875
+    },
+    {
+      "case": 0,
+      "model": "round11",
+      "max_error": 1.4901161193847656e-7,
+      "ms": 894.3805
+    },
+    {
+      "case": 1,
+      "model": "original",
+      "max_error": 4.76837158203125e-7,
+      "ms": 238.80949999999984
+    },
+    {
+      "case": 1,
+      "model": "round11",
+      "max_error": 4.470348358154297e-7,
+      "ms": 869.7461250000001
+    },
+    {
+      "case": 2,
+      "model": "original",
+      "max_error": 5.364418029785156e-7,
+      "ms": 239.1116659999998
+    },
+    {
+      "case": 2,
+      "model": "round11",
+      "max_error": 5.662441253662109e-7,
+      "ms": 883.433959
+    },
+    {
+      "case": 3,
+      "model": "original",
+      "max_error": 7.748603820800781e-7,
+      "ms": 198.30200000000013
+    },
+    {
+      "case": 3,
+      "model": "round11",
+      "max_error": 5.960464477539062e-7,
+      "ms": 851.2137500000003
+    },
+    {
+      "case": 4,
+      "model": "original",
+      "max_error": 3.2782554626464844e-7,
+      "ms": 221.0028339999999
+    },
+    {
+      "case": 4,
+      "model": "round11",
+      "max_error": 3.5762786865234375e-7,
+      "ms": 874.80375
+    }
+  ],
+  "paired_worker_protocol": true,
+  "identical_input_for_both_models": true,
+  "browser_rendering_tested": false,
+  "webgl_tested": false,
+  "native_litert_tested": false
+}

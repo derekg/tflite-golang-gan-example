@@ -1,0 +1,12 @@
+{
+  "original": {
+    "url": "../model/model.tflite",
+    "bytes": 74217344,
+    "sha256": "0074d74ac51f7a67361c2f881faeeebb591f7297c3878f972538b4c1cb95e79b"
+  },
+  "round11": {
+    "url": "../model/model-round11.tflite",
+    "bytes": 32068288,
+    "sha256": "306f8796778eade5935903f74a901844ad385af0f445f052625ce31f2ebfeb81"
+  }
+}

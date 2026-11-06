@@ -1,0 +1,18 @@
+{
+  "gaussian": {
+    "ratio": 0.7032413566812721,
+    "paired_bootstrap_ratio_95pct": [
+      0.7011922045654977,
+      0.705335403011735
+    ],
+    "replicates": 2000
+  },
+  "uniform": {
+    "ratio": 0.7042571882374898,
+    "paired_bootstrap_ratio_95pct": [
+      0.7017876971349821,
+      0.7069674147874144
+    ],
+    "replicates": 2000
+  }
+}

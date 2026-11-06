@@ -1,0 +1,31 @@
+{"time_utc": "2026-11-04T05:34:01.141451+00:00", "event": "plan_frozen", "candidates": 23}
+{"time_utc": "2026-11-04T05:34:01.367060+00:00", "event": "algebra_passed", "identity_error": 0.0}
+{"time_utc": "2026-11-04T05:34:35.518526+00:00", "event": "resume", "reason": "Fixed event logger argument collision; plan and candidate formulas unchanged."}
+{"time_utc": "2026-11-04T05:34:35.635381+00:00", "event": "algebra_passed", "identity_error": 0.0}
+{"time_utc": "2026-11-04T05:34:36.612747+00:00", "event": "checkpoint_restored", "name": "baseline"}
+{"time_utc": "2026-11-04T05:34:37.170216+00:00", "event": "candidate", "name": "stage16_a0.35_b0", "eligible": false, "structure_safe": true, "grid_ratio": 1.0334072415176294}
+{"time_utc": "2026-11-04T05:34:37.686052+00:00", "event": "candidate", "name": "stage16_a0.35_b0.35", "eligible": false, "structure_safe": false, "grid_ratio": 0.9453689311329325}
+{"time_utc": "2026-11-04T05:34:38.116321+00:00", "event": "candidate", "name": "stage32_a0.35_b0", "eligible": false, "structure_safe": true, "grid_ratio": 1.0082600535122972}
+{"time_utc": "2026-11-04T05:34:38.480507+00:00", "event": "candidate", "name": "stage32_a0.35_b0.35", "eligible": false, "structure_safe": false, "grid_ratio": 1.0060982952590785}
+{"time_utc": "2026-11-04T05:34:38.913157+00:00", "event": "candidate", "name": "stage64_a0.35_b0", "eligible": false, "structure_safe": true, "grid_ratio": 0.8514055399504594}
+{"time_utc": "2026-11-04T05:34:39.386651+00:00", "event": "candidate", "name": "stage64_a0.35_b0.35", "eligible": false, "structure_safe": false, "grid_ratio": 0.8912198985116317}
+{"time_utc": "2026-11-04T05:34:39.935613+00:00", "event": "candidate", "name": "stage128_a0.35_b0", "eligible": false, "structure_safe": true, "grid_ratio": 0.6346316066560687}
+{"time_utc": "2026-11-04T05:34:40.424793+00:00", "event": "candidate", "name": "stage128_a0.35_b0.35", "eligible": false, "structure_safe": true, "grid_ratio": 1.165592050817693}
+{"time_utc": "2026-11-04T05:34:41.008311+00:00", "event": "candidate", "name": "late3_a0.15_b0.15", "eligible": false, "structure_safe": false, "grid_ratio": 1.0160298002287007}
+{"time_utc": "2026-11-04T05:34:41.665451+00:00", "event": "candidate", "name": "late3_a0.35_b0.15", "eligible": false, "structure_safe": false, "grid_ratio": 0.6696039249801312}
+{"time_utc": "2026-11-04T05:34:42.308900+00:00", "event": "candidate", "name": "late3_a0.35_b0.35", "eligible": false, "structure_safe": false, "grid_ratio": 1.0037860449571867}
+{"time_utc": "2026-11-04T05:34:42.849307+00:00", "event": "candidate", "name": "late3_a0.6_b0.3", "eligible": false, "structure_safe": false, "grid_ratio": 0.4322156960524608}
+{"time_utc": "2026-11-04T05:34:43.413430+00:00", "event": "candidate", "name": "late3_a0.6_b0.6", "eligible": false, "structure_safe": false, "grid_ratio": 0.9260348451604868}
+{"time_utc": "2026-11-04T05:34:44.077531+00:00", "event": "candidate", "name": "last4_a0.15_b0.15", "eligible": false, "structure_safe": false, "grid_ratio": 0.993195324255342}
+{"time_utc": "2026-11-04T05:34:44.783042+00:00", "event": "candidate", "name": "last4_a0.35_b0.15", "eligible": false, "structure_safe": false, "grid_ratio": 0.669766369809793}
+{"time_utc": "2026-11-04T05:34:45.426622+00:00", "event": "candidate", "name": "last4_a0.35_b0.35", "eligible": false, "structure_safe": false, "grid_ratio": 0.9606591416260755}
+{"time_utc": "2026-11-04T05:34:46.097994+00:00", "event": "candidate", "name": "last4_a0.6_b0.3", "eligible": false, "structure_safe": false, "grid_ratio": 0.46743047826185347}
+{"time_utc": "2026-11-04T05:34:46.817869+00:00", "event": "candidate", "name": "last4_a0.6_b0.6", "eligible": false, "structure_safe": false, "grid_ratio": 0.95230904105555}
+{"time_utc": "2026-11-04T05:34:47.398767+00:00", "event": "candidate", "name": "phase_only_0.35", "eligible": false, "structure_safe": false, "grid_ratio": 1.810606216406573}
+{"time_utc": "2026-11-04T05:34:48.000027+00:00", "event": "candidate", "name": "blur_control_0.15", "eligible": false, "structure_safe": true, "grid_ratio": 1.0336340745739772}
+{"time_utc": "2026-11-04T05:34:48.591859+00:00", "event": "candidate", "name": "blur_control_0.35", "eligible": false, "structure_safe": true, "grid_ratio": 1.0714780917955382}
+{"time_utc": "2026-11-04T05:34:49.079778+00:00", "event": "candidate", "name": "blur_control_0.6", "eligible": false, "structure_safe": false, "grid_ratio": 1.0714962927696916}
+{"time_utc": "2026-11-04T05:34:49.085522+00:00", "event": "selection_frozen", "config": {"name": "stage128_a0.35_b0", "stages": [4], "a": 0.35, "b": 0.0}, "diagnostic": true}
+{"time_utc": "2026-11-04T05:34:50.612829+00:00", "event": "holdout", "distribution": "gaussian", "guards": {"edge_grid": true, "phase4": false, "broad_edges": true, "shape": true, "coarse_drift": true, "rgb_drift": true, "color": true, "clipping": true}}
+{"time_utc": "2026-11-04T05:34:52.124539+00:00", "event": "holdout", "distribution": "uniform", "guards": {"edge_grid": true, "phase4": false, "broad_edges": true, "shape": true, "coarse_drift": true, "rgb_drift": true, "color": true, "clipping": true}}
+{"time_utc": "2026-11-04T05:34:53.895143+00:00", "event": "delivery_complete", "models": [{"path": "round10/candidates/model_overlap_experimental.tflite", "sha256": "5ff90487db3adb09c00a7db3fe2d4ae4fcb9bb8ed6c0bb2a94e485a3c5173245", "export": {"tensors": 83, "ops": 42, "buffers": 41, "opcodes": [[9, 1], [22, 1], [98, 1], [77, 1], [45, 1], [83, 1], [67, 3], [3, 1], [5, 1], [0, 1], [100, 1], [4, 1], [14, 1]], "bytes": 32068288, "changed_inherited_tensors": ["upsample4/weights"]}}, {"path": "round10/candidates/model_overlap_experimental_2x.tflite", "sha256": "e686cbe9e182eadc353a7daa285de6046a9b0d0f804b8f880463d36870921e6a", "export": {"tensors": 89, "ops": 45, "buffers": 44, "opcodes": [[9, 1], [22, 1], [98, 1], [77, 1], [45, 1], [83, 1], [67, 3], [3, 1], [5, 1], [0, 1], [100, 1], [4, 1], [14, 1]], "bytes": 32070368}}]}

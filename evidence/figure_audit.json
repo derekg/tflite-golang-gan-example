@@ -1,0 +1,170 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "file": "gaussian_portraits_00_03.png",
+      "source_array_keys": [
+        "original",
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 12,
+      "sha256": "254b4f58530de2cb6bb4b78a5388363abbe9987d3075a1f6067460d387d17f2b"
+    },
+    {
+      "file": "gaussian_edges_00_03.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "e8590351a439924334d581a0e34e419226515091130280b24139b103878d4808"
+    },
+    {
+      "file": "gaussian_portraits_04_07.png",
+      "source_array_keys": [
+        "original",
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 12,
+      "sha256": "b2cd6b6fd021e8443b88d0fdfe9ad8c33e06c2562430e697659e4ad3bc3e4421"
+    },
+    {
+      "file": "gaussian_edges_04_07.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "3904937c3073d800ec8d594253c21f66b49f9f57029c767df62d374ac117ec5c"
+    },
+    {
+      "file": "gaussian_holdout_portraits_00_03.png",
+      "source_array_keys": [
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 8,
+      "sha256": "0f2ba44f038bdaf3d48b9648d13ff92cebef4aba49cb0c7dda97fe31fef017f7"
+    },
+    {
+      "file": "gaussian_holdout_edges_00_03.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "1a5d8ed5aa352fa3688d8a7dddf59f6ec5dcc29307758abbf3eac0a28744613a"
+    },
+    {
+      "file": "gaussian_holdout_portraits_04_07.png",
+      "source_array_keys": [
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 8,
+      "sha256": "63d0878aef9b09846fd06bcff526ff9548c9ee62968179a4030da0281233929d"
+    },
+    {
+      "file": "gaussian_holdout_edges_04_07.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "28781144d529c7781f246c6e1fb1cce7b4009c66e5230a9c243894d17c51841c"
+    },
+    {
+      "file": "uniform_portraits_00_03.png",
+      "source_array_keys": [
+        "original",
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 12,
+      "sha256": "f2421ac61f5165ee59a01073cfefadd43932a53d198ae610501ea98146c15447"
+    },
+    {
+      "file": "uniform_edges_00_03.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "595175d06880b077ae4db54216e8ce39a4bec93cb748c8074b34ea2f0774f296"
+    },
+    {
+      "file": "uniform_portraits_04_07.png",
+      "source_array_keys": [
+        "original",
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 12,
+      "sha256": "a9d80fb185717dedf8e37ba06a328729806f7c4a837c97c322a471c924c091d3"
+    },
+    {
+      "file": "uniform_edges_04_07.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "f573e36bbc21e28e8e19217fb9a808520e09b569a84bc49c7e7d9c1e89a565b7"
+    },
+    {
+      "file": "uniform_holdout_portraits_00_03.png",
+      "source_array_keys": [
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 8,
+      "sha256": "06fef026c19b22226ebf9986f4b40908ebb4c3d9cc5db14d4b387d6c8a0e2491"
+    },
+    {
+      "file": "uniform_holdout_edges_00_03.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "e8dff09720c702cdd6dba1e1d3f28d7e442f6ea04a7ae3db1602bfc4b330a4e4"
+    },
+    {
+      "file": "uniform_holdout_portraits_04_07.png",
+      "source_array_keys": [
+        "round9",
+        "round11"
+      ],
+      "panels_verified": 8,
+      "sha256": "e1ccaa88157e9c207fe7c96fc83b12b931e3ae57098c98f943d509f8825579c6"
+    },
+    {
+      "file": "uniform_holdout_edges_04_07.png",
+      "source_array_keys": [
+        "round9",
+        "round11",
+        "edge9",
+        "edge11"
+      ],
+      "panels_verified": 16,
+      "sha256": "f8fe616d63cb5019fb984fe8fd2a36cbcb0d1fca5d66bcecb7a064be1e9cd591"
+    }
+  ],
+  "caption": "RGB unedited; native pixels enlarged by nearest neighbor; edge source key checked for every panel."
+}

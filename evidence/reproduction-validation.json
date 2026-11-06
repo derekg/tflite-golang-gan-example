@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "samples": 768,
+  "distributions": 3,
+  "max_absolute_metric_difference": 1.4901161193847656e-08,
+  "source": "research/evaluate.py using both distributed model files",
+  "native_litert": false
+}

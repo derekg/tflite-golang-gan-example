@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rgb_tiles": 32,
+  "source": "round11/figures/{gaussian,uniform}_comparison.npz",
+  "enlargement": "nearest neighbor",
+  "retouching": false,
+  "edge_tiles": 32,
+  "max_edge_uint8_error": 1
+}

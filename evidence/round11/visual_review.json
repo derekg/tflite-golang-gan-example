@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-04T05:41:46.949717+00:00",
+  "reviewed": [
+    "gaussian_edges_00_03.png",
+    "gaussian_portraits_04_07.png",
+    "uniform_portraits_00_03.png",
+    "uniform_portraits_04_07.png",
+    "gaussian_holdout_portraits_00_03.png"
+  ],
+  "assessment": "Less regular grid texture with mild softening; coarse blocks persist. Established Gaussian samples 05 and 07 remain poor. No recovered detail or anatomy claim.",
+  "criteria_passed": true,
+  "promoted_to_browser": false,
+  "native_litert_tested": false,
+  "renderer_correction": "Fixed copied edge10 lookup to edge11 and regenerated all panels; corrected short-panel headings; final panels verified against named source arrays."
+}

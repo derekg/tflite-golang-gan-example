@@ -1,0 +1,157 @@
+{
+  "config": {
+    "name": "overlap0.5_phase0.2",
+    "stages": [
+      4
+    ],
+    "a": 0.5,
+    "b": 0.2
+  },
+  "criteria_passed": true,
+  "promoted": false,
+  "visual_review_pending": true,
+  "models": [
+    {
+      "path": "round11/candidates/model_grid_cleanup_experimental.tflite",
+      "sha256": "306f8796778eade5935903f74a901844ad385af0f445f052625ce31f2ebfeb81",
+      "export": {
+        "tensors": 83,
+        "ops": 42,
+        "buffers": 41,
+        "opcodes": [
+          [
+            9,
+            1
+          ],
+          [
+            22,
+            1
+          ],
+          [
+            98,
+            1
+          ],
+          [
+            77,
+            1
+          ],
+          [
+            45,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            67,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            100,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "bytes": 32068288,
+        "changed_inherited_tensors": [
+          "upsample4/weights"
+        ]
+      }
+    },
+    {
+      "path": "round11/candidates/model_grid_cleanup_experimental_2x.tflite",
+      "sha256": "cc4ea748d98a8099fab3f8aefee913cb24ea6fb6cb4589922ece5b8d069dd6f5",
+      "export": {
+        "tensors": 89,
+        "ops": 45,
+        "buffers": 44,
+        "opcodes": [
+          [
+            9,
+            1
+          ],
+          [
+            22,
+            1
+          ],
+          [
+            98,
+            1
+          ],
+          [
+            77,
+            1
+          ],
+          [
+            45,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            67,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            100,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "bytes": 32070368
+      }
+    }
+  ],
+  "protected_files": {
+    "round9/candidates/model_spatial_experimental.tflite": "4008ef0fd929fc45b6f49a6ecdf596fc39a9620754296132bea25e80a583c3c3",
+    "round9/candidates/model_spatial_experimental.pt": "b34c4888df77575e688291c9bb5d8cb1351f1d28d6d14b9454f1214bc5780ce4",
+    "model.tflite": "0074d74ac51f7a67361c2f881faeeebb591f7297c3878f972538b4c1cb95e79b",
+    "round8/candidates/model_selective_experimental.tflite": "5f899d68b63bf194197eb0d1dcf1e98f7002d6f0b8340f816e2f20b1132e0539",
+    "round10/candidates/model_overlap_experimental.tflite": "5ff90487db3adb09c00a7db3fe2d4ae4fcb9bb8ed6c0bb2a94e485a3c5173245",
+    "portrait-morph/dist/index.html": "0ddeae3b3931cb62b56d9757e9e38161974b4b25b756ad6e689cdc99cd0616fb"
+  },
+  "native_litert_tested": false,
+  "training": false,
+  "external_data": false
+}
